@@ -26,10 +26,10 @@
             <input type="password" class="form-control" placeholder="Password">
         </div>
         <div class="input-group mr-sm-2">
-            <button class="btn-theme btn-gradient btn-slide no-border" type="submit">Masuk</button>
+            <button class="btn-theme btn-red no-border" type="submit">Masuk</button>
         </div>
         <div class="input-group mr-sm-2">
-            <button class="btn-theme btn-gradient btn-slide no-border" type="submit">Daftar</button>
+            <button class="btn-theme btn-white no-border" type="submit">Daftar</button>
         </div>
     </form>
 </template>

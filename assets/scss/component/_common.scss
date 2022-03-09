@@ -39,7 +39,7 @@
 
 .container {
     @media #{$xl-down-device} {
-        max-width: 1200px;
+        max-width: 100%;
     }
     padding-left: 15px;
     padding-right: 15px;
@@ -314,6 +314,18 @@
         }
     }
 
+    &.btn-red {
+        background-color: $theme-color;
+        border-color: $theme-color;
+        color: $white;
+        font-size: $font-size-12;
+        &:hover {
+            background-color: $white-f4;
+            border-color: $white-f4;
+            color: $black-0e;
+        }
+    }
+
     &.btn-black {
         background-color: $black;
         border-color: $black;
@@ -340,7 +352,7 @@
         background-color: $white;
         border-color: $white;
         color: $black-0e;
-
+        font-size: $font-size-12;
         &:hover {
             background-color: $black;
             border-color: $black;

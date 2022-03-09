@@ -8,7 +8,7 @@
     padding: 50px 0;
     .form-check-label {
         color: $white-fe;
-        font-size: 12px;
+        font-size: $font-size-12;
     }
 
     .form-control {
@@ -31,7 +31,7 @@
         color: $white-fe;
         opacity: 1; /* Firefox */
         padding-left: 10px;
-        font-size: 12px;
+        font-size: $font-size-12;
     }
     .input-group-text {
         color: $white-fe;
@@ -53,7 +53,7 @@
         }
         .container {
             @media #{$xxl-device} {
-                max-width: 1397px;
+                max-width: 100%;
                 padding-left: 15px;
                 padding-right: 15px;
             }
@@ -112,10 +112,11 @@
                         }
                         & > a {
                             &.active {
-                                color: $white;
+                                color: $theme-color;
                                 position: relative;
                                 &:before {
-                                    background-image: url("/images/shape/menu-shape.png");
+                                    //background-image: url("/images/shape/menu-shape.png");
+                                    color: $white;
                                     background-repeat: no-repeat;
                                     background-position: 45% 15%;
                                     content: "";
@@ -139,7 +140,7 @@
                             }
                         }
                         & > a {
-                            padding: 7px 34px;
+                            padding: 7px 20px;
                             @media #{$xl-device} {
                                 padding: 7px 31px;
                             }
@@ -246,6 +247,13 @@
     }
 }
 
+.menu-nav {
+    background-color: $white-fe;
+    .header-align {
+        justify-content: flex-start !important;
+        padding-left: 20px;
+    }
+}
 // sticky css
 .header-area {
     &.is-sticky {
@@ -263,7 +271,7 @@
         opacity: 0;
         transform: translate3d(0, -100%, 0);
     }
-  
+
     to {
         opacity: 1;
         transform: translate3d(0, 0, 0);

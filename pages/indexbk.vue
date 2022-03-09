@@ -5,16 +5,16 @@
         <RunningText />
         <div class="container">
             <OffCanvasMobileMenu />
-            <HomeContainer />
-<!--            <HeroOne />-->
 
-<!--            <ServiceOne />-->
+            <HeroOne />
 
-<!--            <CausesOne />-->
+            <ServiceOne />
 
-<!--            <FunFactOne />-->
+            <CausesOne />
 
-<!--            <Sponsor />-->
+            <FunFactOne />
+
+            <Sponsor />
 
             <Footer />
 
@@ -34,13 +34,12 @@
             Header: () => import('@/components/Header'),
             RunningText: () => import('@/components/RunningText'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
-            HomeContainer: () => import('@/components/HomeContainer'),
-            // HeroOne: () => import('@/components/HeroOne'),
-            // ServiceOne: () => import('@/components/ServiceOne'),
-            // CausesOne: () => import('@/components/CausesOne'),
-            // FunFactOne: () => import('@/components/FunFactOne'),
-            // Sponsor: () => import('@/components/Sponsor'),
-            // Footer: () => import('@/components/Footer'),
+            HeroOne: () => import('@/components/HeroOne'),
+            ServiceOne: () => import('@/components/ServiceOne'),
+            CausesOne: () => import('@/components/CausesOne'),
+            FunFactOne: () => import('@/components/FunFactOne'),
+            Sponsor: () => import('@/components/Sponsor'),
+            Footer: () => import('@/components/Footer'),
         },
 
         head() {

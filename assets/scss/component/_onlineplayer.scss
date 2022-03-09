@@ -1,0 +1,38 @@
+/* Style the tabs */
+.online-player {
+    margin-bottom: -2px; // hide bottom border
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    .thumb {
+        border-radius: 10px;
+        background-color: $black-2a;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        .thumb-head {
+            padding: 3px 3px 3px 3px;
+            display: flex;
+        }
+        .thumb-head span{
+            font-size: $font-size-12;
+            color: $white;
+        }
+        .online-num {
+            color: $white;
+            font-size: $font-size-30;
+        }
+        .online-pl {
+            color: $white;
+            font-size: $font-size-12;
+        }
+        .online-date {
+            color: $white;
+            font-size: $font-size-12;
+        }
+    }
+}
+.bg-red {
+    background-color: $theme-color;
+}
+
