@@ -2,15 +2,19 @@
 .online-player {
     margin-bottom: -2px; // hide bottom border
     border: 1px solid #ccc;
-    border-radius: 10px;
     display: flex;
     .thumb {
         border-radius: 10px;
-        background-color: $black-2a;
+        background: $black-0e;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, $theme-color, $black-0e);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, $theme-color, $black-0e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         width: 100%;
         height: 100%;
         text-align: center;
         .thumb-head {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            overflow: hidden;
             padding: 3px 3px 3px 3px;
             display: flex;
         }
@@ -19,8 +23,24 @@
             color: $white;
         }
         .online-num {
-            color: $white;
-            font-size: $font-size-30;
+            .horz-list ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                text-align: center;
+            }
+            .horz-list ul li {
+                display: inline;
+            }
+            .horz-list ul li a {
+                background-color: $theme-color;
+                font-size: $font-size-30;
+                text-transform: uppercase;
+                color: #fff;
+                text-decoration: none;
+                padding: 5px;
+                margin: 0 0 0 0;
+            }
         }
         .online-pl {
             color: $white;
@@ -34,5 +54,8 @@
 }
 .bg-red {
     background-color: $theme-color;
+}
+.bg-theme {
+    background-color: $black-2a;
 }
 
