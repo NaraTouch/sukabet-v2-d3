@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer-area" :style="{ backgroundImage: `url('/images/shape/footer-line.png')` }">
+    <footer class="footer-area bg-theme">
         <div class="row">
             <div class="col-12 mt-2 footer-item">
                 <div class="col-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 float-left pr-0 pl-0 text-left">
