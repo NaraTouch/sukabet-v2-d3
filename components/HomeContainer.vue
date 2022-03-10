@@ -2,11 +2,12 @@
     <section class="home-container-area">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <TabWinner />
                     <OnlinePlayer />
+                    <PaymentMethod />
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-8">
 
                 </div>
             </div>
@@ -19,6 +20,7 @@
         components: {
             TabWinner: () => import("@/components/TabWinner"),
             OnlinePlayer: () => import("@/components/OnlinePlayer"),
+            PaymentMethod: () => import("@/components/PaymentMethod"),
         },
     };
 </script>

@@ -5,18 +5,6 @@
 */
 .lastwinner-area {
   &.lastwinner-default-area {
-    //@media #{$lg-device} {
-    //  padding: 98px 0 70px;
-    //}
-    //@media #{$md-device} {
-    //  padding: 98px 0 187px;
-    //}
-    //@media #{$sm-device} {
-    //  padding: 78px 0 157px;
-    //}
-    //@media #{$xxs-device} {
-    //  padding: 78px 0 50px;
-    //}
     .section-title {
       margin-bottom: 99px;
       @media #{$lg-device} {
@@ -41,15 +29,6 @@
           }
         }
       }
-    }
-    .lastwinner-content {
-      //padding-right: 170px;
-      //@media #{$lg-device} {
-      //  padding-right: 70px;
-      //}
-      //@media #{$md-device} {
-      //  padding-right: 0;
-      //}
     }
     .layer-style {
       margin-top: 150px;

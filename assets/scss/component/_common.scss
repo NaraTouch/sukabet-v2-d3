@@ -276,7 +276,7 @@
     font-size: 17px;
     font-weight: $font-weight-medium;
     line-height: 1.375;
-    padding: 4px 12px;
+    padding: 6px 12px;
     position: relative;
     @include transition(0.3s);
 
@@ -2431,4 +2431,24 @@
 
 .d-contents {
     display: contents;
+}
+.bg-red {
+    background-color: $theme-color;
+}
+.bg-theme {
+    background-color: $black-2a;
+}
+.box-shadow-1 {
+    box-shadow: 3px 3px 6px #e1e1e1;
+}
+.border-raduis-10 {
+    border-radius: 10px;
+}
+.border-raduis-18 {
+    border-radius: 18px;
+}
+.gd-red-black {
+    background: $black-0e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, $theme-color, $black-0e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, $theme-color, $black-0e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

@@ -16,8 +16,6 @@
 
 <!--            <Sponsor />-->
 
-            <Footer />
-
             <client-only>
                 <back-to-top class="scroll-top" bottom="30px">
                     <i class="arrow-top icofont-rounded-up"></i>
@@ -25,6 +23,7 @@
                 </back-to-top>
             </client-only>
         </div>
+        <Footer />
     </div>
 </template>
 

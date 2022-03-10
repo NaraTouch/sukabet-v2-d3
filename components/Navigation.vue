@@ -1,6 +1,6 @@
 <template>
-    <div class="row align-items-center menu-nav">
-        <div class="col-12">
+    <div class="row mr-0 ml-0 align-items-center menu-nav">
+        <div class="col-12 pr-0 pl-0">
             <div class="header-align">
                 <div class="header-navigation-area">
                     <ul class="main-menu nav">

@@ -1,7 +1,7 @@
 <template>
     <header class="header-area header-default p-0" :class="{'is-sticky': isSticky}">
         <div class="container pl-0 m-0 pr-0">
-            <div class="row align-items-center justify-content-between">
+            <div class="row mr-0 ml-0 align-items-center justify-content-between">
                 <div class="col-5 col-sm-3 col-lg-2 pr-0 pl-0 t-0">
                     <div class="header-logo-area">
                         <n-link to="/">
