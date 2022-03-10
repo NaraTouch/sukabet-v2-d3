@@ -1,6 +1,6 @@
 <template>
     <div class="mb-5">
-        <section class="payment-method box-shadow-1 border-raduis-10">
+        <section class="payment-method box-shadow-1 border-raduis-10 bg-white">
             <div class="container pr-0 pl-0 mb-2">
                 <div class="row mr-0 ml-0">
                     <div class="col-12 pt-2 pb-2">

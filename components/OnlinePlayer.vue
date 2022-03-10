@@ -1,6 +1,6 @@
 <template>
     <div class="mb-2">
-        <section class="online-player box-shadow-1 border-raduis-10">
+        <section class="online-player box-shadow-1 border-raduis-10 bg-white">
             <div class="container pr-0 pl-0" data-aos="fade-up" data-aos-duration="1000">
                 <div class="row mr-0 ml-0">
                     <div class="col-12 pr-0 pl-0">

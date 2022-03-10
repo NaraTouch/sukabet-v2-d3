@@ -1,6 +1,6 @@
 <template>
     <div class="mb-2">
-        <div class="tabs box-shadow-1">
+        <div class="tabs box-shadow-1 bg-white gd-white-old">
             <div class="row mr-0 ml-0">
                 <div class="col-4 pr-0 pl-0">
                     <li>
@@ -19,8 +19,8 @@
                 </div>
             </div>
         </div>
-        <div class="content">
-            <div v-if="activetab === 1" class="tabcontent box-shadow-1">
+        <div class="content-detail box-shadow-1 bg-white">
+            <div v-if="activetab === 1" class="tabcontent">
                 <LastWinner />
             </div>
             <div v-if="activetab === 2" class="tabcontent">

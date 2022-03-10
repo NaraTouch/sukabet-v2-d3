@@ -3,7 +3,7 @@
 
         <Header />
         <RunningText />
-        <div class="container">
+        <div class="container bg-gray-lighter">
             <OffCanvasMobileMenu />
             <HomeContainer />
 <!--            <HeroOne />-->

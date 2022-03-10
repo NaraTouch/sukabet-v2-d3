@@ -2438,8 +2438,14 @@
 .bg-theme {
     background-color: $black-2a;
 }
+.bg-gray-lighter {
+    background-color: $gray-lighter;
+}
+.bg-white {
+    background-color: $white;
+}
 .box-shadow-1 {
-    box-shadow: 3px 3px 6px #e1e1e1;
+    box-shadow: 3px 3px 6px $gray-ccc;
 }
 .border-raduis-10 {
     border-radius: 10px;
@@ -2451,4 +2457,8 @@
     background: $black-0e;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, $theme-color, $black-0e);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, $theme-color, $black-0e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.gd-white-old {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(224,224,224,1) 48%, rgba(191,191,191,0.9612219887955182) 71%, rgba(120,120,120,0.8575805322128851) 100%);
 }

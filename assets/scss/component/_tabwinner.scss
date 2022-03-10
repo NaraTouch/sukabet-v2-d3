@@ -21,7 +21,6 @@
     cursor: pointer;
     transition: background-color 0.2s;
     border-right: none;
-    background-color: #f1f1f1;
     font-weight: bold;
     font-size: $font-size-12;
 }
@@ -40,7 +39,7 @@
 }
 
 /* Style the tab content */
-.tabcontent {
+.content-detail {
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
