@@ -1,10 +1,19 @@
-/*
+        /*
 -----------------------------------------------------------------------
 	Home Container CSS
 -----------------------------------------------------------------------
 */
-.home-container-area {
-	padding: 7px 0 7px;
-	position: relative;
-}
-
+        
+        .home-container-area {
+            padding: 7px 0 7px;
+            position: relative;
+        }
+        
+        .box-margin-top {
+            margin-top: 10px;
+        }
+        
+        .home-container-area .display-cetner {
+            display: flex;
+            flex-wrap: wrap;
+        }

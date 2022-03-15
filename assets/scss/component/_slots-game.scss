@@ -1,0 +1,40 @@
+.mb-2-bgc {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.new-badge {
+     ::after {
+        display: block;
+        content: "";
+        width: 32px;
+        height: 16px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: url('@/static/images/new/new-badge.png') no-repeat;
+        background-size: contain;
+        animation: blink 1.2s step-start 0s infinite;
+        -webkit-animation: blink 1.2s step-start 0s infinite
+    }
+    @keyframes blink {
+        50% {
+            opacity: 0
+        }
+    }
+    @-webkit-keyframes blink {
+        50% {
+            opacity: 0
+        }
+    }
+}
+
+.game-center {
+    text-align: center;
+    .card-body {
+        padding: 10px 0px 0px 0px;
+    }
+    .display-card {
+        max-width: 200px;
+    }
+}

@@ -1,32 +1,11 @@
 <template>
-    <!-- <div class="main-container">
-
-        <Header />
-
-        <OffCanvasMobileMenu />
-
-        <Breadcrumb :items="items" title="Pricing" />
-
-        <PricingWrapper />
-
-        <Footer />
-
-        <client-only>
-            <back-to-top class="scroll-top" bottom="30px">
-                <i class="arrow-top icofont-rounded-up"></i>
-                <i class="arrow-bottom icofont-rounded-up"></i>
-            </back-to-top>
-        </client-only>
-
-    </div> -->
     <div class="home-default-wrapper">
 
         <Header />
         <RunningText />
         <div class="container bg-gray-lighter">
             <OffCanvasMobileMenu />
-            <BaccaratContainer />
-            
+            <SlotsContainer />
 <!--            <HeroOne />-->
 
 <!--            <ServiceOne />-->
@@ -56,7 +35,7 @@
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
             Breadcrumb: () => import('@/components/Breadcrumb'),
             PricingWrapper: () => import('@/components/PricingWrapper'),
-            BaccaratContainer: () => import('@/components/Baccarat/BaccaratContainer'),
+            SlotsContainer: () => import('@/components/Slots/SlotsContainer'),
             // Footer: () => import('@/components/Footer'),
         },
 
@@ -68,7 +47,7 @@
                         to: "/"
                     },
                     {
-                        text: 'pricing',
+                        text: 'slots',
                         active: true
                     }
                 ]
@@ -77,7 +56,7 @@
 
         head() {
             return {
-                title: 'Pricing'
+                title: 'Sport'
             }
         },
     };

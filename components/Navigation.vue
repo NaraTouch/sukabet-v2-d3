@@ -18,13 +18,13 @@
                             <n-link to="/pricing">Baccarat</n-link>
                         </li>
                         <li>
-                            <n-link to="/contact">Sports</n-link>
+                            <n-link to="/sport">Sports</n-link>
                         </li>
                         <li>
-                            <n-link to="/contact">Casino</n-link>
+                            <n-link to="/casino">Casino</n-link>
                         </li>
                         <li>
-                            <n-link to="/contact">Slots</n-link>
+                            <n-link to="/slots">Slots</n-link>
                         </li>
                         <li>
                             <n-link to="/contact">Poker</n-link>

@@ -6,6 +6,7 @@
         <div class="container bg-gray-lighter">
             <OffCanvasMobileMenu />
             <HomeContainer />
+            
 <!--            <HeroOne />-->
 
 <!--            <ServiceOne />-->
@@ -23,6 +24,7 @@
                 </back-to-top>
             </client-only>
         </div>
+        
         <Footer />
     </div>
 </template>
