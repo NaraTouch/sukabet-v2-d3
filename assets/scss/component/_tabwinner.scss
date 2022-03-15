@@ -1,4 +1,5 @@
 /* Style the tabs */
+
 .tabs {
     overflow: hidden;
     margin-bottom: -2px; // hide bottom border
@@ -10,10 +11,12 @@
     list-style-type: none;
     margin-left: 20px;
 }
+
 .tabs li {
     list-style: none;
 }
-.tabs a{
+
+.tabs a {
     padding: 7px 0px 7px 0px;
     color: $black-2a;
     text-align: center;
@@ -25,20 +28,26 @@
     font-size: $font-size-12;
 }
 
+
 /* Change background color of tabs on hover */
+
 .tabs a:hover {
     background-color: $theme-color;
     color: $white;
 }
 
+
 /* Styling for active tab */
+
 .tabs a.active {
     background-color: $theme-color;
     color: $white;
     cursor: default;
 }
 
+
 /* Style the tab content */
+
 .content-detail {
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
@@ -51,3 +60,7 @@
     border-right: 1px solid #ccc;
     border-left: 1px solid #ccc;
 }
+
+// .box-margin-top {
+//     margin-top: 10px;
+// }
