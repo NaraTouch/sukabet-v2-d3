@@ -1,0 +1,46 @@
+            #baccarat-game {
+                // .border-bottom {
+                //     border-bottom: 1px solid #595959;
+                // }
+                 :hover {
+                    filter: drop-shadow(0 0 10px blue);
+                }
+                .display-card {
+                    display: inline-block;
+                }
+                .display-card .card {
+                    margin: 10px 10px 10px 0px;
+                    border: 0px;
+                    background-color: transparent;
+                }
+                .display-card .card-img,
+                .card-img-top {
+                    // border-top-left-radius: calc(1rem - 1px);
+                    // border-top-right-radius: calc(1rem - 1px);
+                    // border-bottom-left-radius: calc(1rem - 1px);
+                    // border-bottom-right-radius: calc(1rem - 1px);
+                    border-radius: 1rem;
+                }
+                .display-card .card .card-body {
+                    text-align: center;
+                }
+            }
+            
+            .space-row {
+                margin: 10px 0px;
+            }
+            
+            .row-override {
+                padding-right: 0px !important;
+                padding-left: 0px !important;
+            }
+            
+            .container-fluid-row {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+            
+            .home-container-area .container-fluid-override {
+                padding-right: 0px !important;
+                padding-left: 0px !important;
+            }
