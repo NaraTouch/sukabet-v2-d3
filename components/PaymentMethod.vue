@@ -1,5 +1,5 @@
 <template>
-    <div class="mb-5">
+    <div class="mb-5 md-5-override">
         <section class="payment-method box-shadow-1 border-raduis-10 bg-white">
             <div class="container pr-0 pl-0 mb-2">
                 <div class="row mr-0 ml-0">

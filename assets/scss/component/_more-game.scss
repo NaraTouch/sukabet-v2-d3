@@ -1,0 +1,54 @@
+            #mode-game {
+                background-color: #fff;
+                border-radius: 10px;
+            }
+            
+            // .box-cetner {
+            //     padding: 15px 300px;
+            // }
+            .image-size {
+                width: 100%;
+            }
+            
+            @media #{$xxl-device} {
+                .size-game {
+                    padding: 20px 160px;
+                }
+            }
+            
+            @media #{$xl-device} {
+                .size-game {
+                    padding: 20px 140px;
+                }
+            }
+            
+            @media #{$xs-device} {
+                .col-sm-4 {
+                    flex: 0 0 33.333333%;
+                    max-width: 33.333333%;
+                }
+            }
+            
+            @media #{$lg-device} {
+                .size-game {
+                    padding: 20px 30px;
+                }
+            }
+            
+            .mb-5-margin-bottom {
+                margin-bottom: 1rem !important;
+                margin-top: 2rem;
+            }
+            
+            .mb-5-margin-bottom {
+                .space-row {
+                    margin: 10px 0px 0px 0px;
+                }
+                .space-row p {
+                    font-weight: 600;
+                }
+            }
+            
+            .link-space {
+                text-align: center;
+            }

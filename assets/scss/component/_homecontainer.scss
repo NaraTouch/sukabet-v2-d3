@@ -7,13 +7,39 @@
         .home-container-area {
             padding: 7px 0 7px;
             position: relative;
-        }
-        
-        .box-margin-top {
-            margin-top: 10px;
-        }
-        
-        .home-container-area .display-cetner {
-            display: flex;
-            flex-wrap: wrap;
+            .box-margin-top {
+                margin-top: 10px;
+            }
+            .display-cetner {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .col-margin-top {
+                margin-top: 0px;
+            }
+            .new-hot-offer {
+                 ::after {
+                    display: block;
+                    content: "";
+                    width: 50px;
+                    height: 20px;
+                    position: absolute;
+                    top: -10px;
+                    right: 20px;
+                    background: url('@/static/images/new/new-badge.png') no-repeat;
+                    background-size: contain;
+                    animation: blink 1.2s step-start 0s infinite;
+                    -webkit-animation: blink 1.2s step-start 0s infinite
+                }
+                @keyframes blink {
+                    50% {
+                        opacity: 0
+                    }
+                }
+                @-webkit-keyframes blink {
+                    50% {
+                        opacity: 0
+                    }
+                }
+            }
         }

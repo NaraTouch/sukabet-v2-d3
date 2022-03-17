@@ -5,7 +5,7 @@
                 <div class="row mr-0 ml-0">
                     <div class="col-lg-12 pr-0 pl-0">
                         <div class="brand-logo-content size-game">
-                            <div class="col-lg-2 col-md-3 col-sm-4 mb-2 col-xs-6 on-pl-col image-size" v-for="(brand, index) in brands" :key="index">
+                            <div class="col-lg-2 col-md-3 col-sm-4 mb-3 col-xs-6 on-pl-col image-size" v-for="(brand, index) in brands" :key="index">
                                 <div class="brand-logo-item">
                                     <img :src="brand.logoSrc" :alt="brand.alt">
                                 </div>
@@ -16,12 +16,6 @@
             </div>
         </section>
 
-        <!-- <div class="space-row">
-            <span>{{ contect }}</span>
-            <div class="link-space">
-                <a href="http://localhost:3000/"><span>Baca selanjutnya</span></a>
-            </div>
-        </div> -->
         <FooterText :link="link" :test="linkTitle" :contect="contect" />
     </div>
 </template>

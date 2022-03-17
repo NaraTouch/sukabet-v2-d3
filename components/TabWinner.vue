@@ -1,5 +1,6 @@
 <template>
     <div class="mb-2">
+        <!-- <div class="tabs box-shadow-1 bg-white gd-white-old "> -->
         <div class="tabs box-shadow-1 bg-white gd-white-old">
             <div class="row mr-0 ml-0">
                 <div class="col-4 pr-0 pl-0">
@@ -19,7 +20,7 @@
                 </div>
             </div>
         </div>
-        <div class="content-detail box-shadow-1 bg-white">
+        <div class="content-detail box-shadow-1 bg-white" >
             <div v-if="activetab === 1" class="tabcontent">
                 <LastWinner />
             </div>
@@ -35,6 +36,9 @@
 
 <script>
     export default {
+        props: {
+            isactive: Boolean,
+        },
         components: {
             LastWinner: () => import("@/components/LastWinner"),
         },

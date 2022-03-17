@@ -1,0 +1,44 @@
+.main-social {
+    display: grid;
+    position: fixed;
+    right: 0;
+    bottom: calc(45% + 8px);
+    z-index: 100;
+    width: 80px;
+    height: 100px;
+    .icon-image {
+        background: linear-gradient(to right, #ff353b, #0e0e0e);
+        margin: 5px 0px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 50px 0px 0px 50px;
+    }
+    .icon-image img {
+        border-radius: 50px 50px 50px 50px;
+    }
+}
+
+.offer {
+     ::after {
+        display: block;
+        content: "";
+        width: 50px;
+        height: 20px;
+        position: absolute;
+        top: 110px;
+        right: 70px;
+        background: url('@/static/images/new/new-badge.png') no-repeat;
+        background-size: contain;
+        animation: blink 1.2s step-start 0s infinite;
+        -webkit-animation: blink 1.2s step-start 0s infinite
+    }
+    @keyframes blink {
+        50% {
+            opacity: 0
+        }
+    }
+    @-webkit-keyframes blink {
+        50% {
+            opacity: 0
+        }
+    }
+}

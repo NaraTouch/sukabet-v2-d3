@@ -6,10 +6,10 @@
                 fade
                 indicators
                 img-width="1024"
-                img-height="480"
+                img-height="580"
             >
-                <b-carousel-slide
-                img-src="https://picsum.photos/1024/480/?image=10"
+                <b-carousel-slide v-for="(image, index) in images" :key="index"
+                :img-src="image.src"
                 ></b-carousel-slide>
             </b-carousel>
         </div>
@@ -17,6 +17,19 @@
 
 <script>
   export default {
-
+      props: {
+          images: Array,
+      },
+      data() {
+          return {
+              
+          }
+      },
+      computed: {
+          test() {
+                console.log(this.images);
+          }
+          
+      }
   }
 </script>

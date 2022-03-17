@@ -1,66 +1,93 @@
-/* Style the tabs */
-
-.tabs {
-    overflow: hidden;
-    margin-bottom: -2px; // hide bottom border
-    border: 1px solid #ccc;
-    border-radius: 10px 10px 0 0;
-}
-
-.tabs ul {
-    list-style-type: none;
-    margin-left: 20px;
-}
-
-.tabs li {
-    list-style: none;
-}
-
-.tabs a {
-    padding: 7px 0px 7px 0px;
-    color: $black-2a;
-    text-align: center;
-    display: block;
-    cursor: pointer;
-    transition: background-color 0.2s;
-    border-right: none;
-    font-weight: bold;
-    font-size: $font-size-12;
-}
-
-
-/* Change background color of tabs on hover */
-
-.tabs a:hover {
-    background-color: $theme-color;
-    color: $white;
-}
-
-
-/* Styling for active tab */
-
-.tabs a.active {
-    background-color: $theme-color;
-    color: $white;
-    cursor: default;
-}
-
-
-/* Style the tab content */
-
-.content-detail {
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.r-l-border {
-    border-right: 1px solid #ccc;
-    border-left: 1px solid #ccc;
-}
-
-// .box-margin-top {
-//     margin-top: 10px;
-// }
+    /* Style the tabs */
+    
+    .tabs {
+        overflow: hidden;
+        margin-bottom: -2px; // hide bottom border
+        border: 1px solid #ccc;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .tabs ul {
+        list-style-type: none;
+        margin-left: 20px;
+    }
+    
+    .tabs li {
+        list-style: none;
+    }
+    
+    .tabs a {
+        padding: 7px 0px 7px 0px;
+        color: $black-2a;
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        border-right: none;
+        font-weight: bold;
+        font-size: $font-size-12;
+    }
+    /* Change background color of tabs on hover */
+    
+    .tabs a:hover {
+        background-color: $theme-color;
+        color: $white;
+    }
+    /* Styling for active tab */
+    
+    .tabs a.active {
+        background-color: $theme-color;
+        color: $white;
+        cursor: default;
+    }
+    /* Style the tab content */
+    
+    .content-detail {
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .r-l-border {
+        border-right: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+    }
+    
+    // .box-margin-top {
+    //     margin-top: 10px;
+    // }
+    .tabs-override {
+        border: 0px solid #ccc;
+        border-radius: 10px 10px 0 0;
+        padding: 10px 0px 0px;
+        background: transition;
+    }
+    
+    // condition with hot-offer
+    #hot-offer {
+         ::after {
+            display: block;
+            content: "";
+            width: 50px;
+            height: 20px;
+            position: absolute;
+            top: 10px;
+            right: 0px;
+            background: url('@/static/images/new/new-badge.png') no-repeat;
+            background-size: contain;
+            animation: blink 1.2s step-start 0s infinite;
+            -webkit-animation: blink 1.2s step-start 0s infinite
+        }
+        @keyframes blink {
+            50% {
+                opacity: 0
+            }
+        }
+        @-webkit-keyframes blink {
+            50% {
+                opacity: 0
+            }
+        }
+    }

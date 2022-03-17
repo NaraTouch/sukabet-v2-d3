@@ -1,8 +1,8 @@
 <template>
     <div class="home-default-wrapper">
-
         <Header />
         <RunningText />
+        <ActionComponent />
         <div class="container bg-gray-lighter">
             <OffCanvasMobileMenu />
             <HomeContainer />
@@ -36,6 +36,7 @@
             RunningText: () => import('@/components/RunningText'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
             HomeContainer: () => import('@/components/HomeContainer'),
+            ActionComponent: () => import('@/components/Home/ActionComponent'),
             // HeroOne: () => import('@/components/HeroOne'),
             // ServiceOne: () => import('@/components/ServiceOne'),
             // CausesOne: () => import('@/components/CausesOne'),
@@ -46,7 +47,7 @@
 
         head() {
             return {
-                title: 'Home'
+                title: 'Home',
             }
         },
     };

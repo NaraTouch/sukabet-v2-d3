@@ -1,17 +1,24 @@
 <template>
     <section class="home-container-area">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4 border-right border-dark  box-margin-top">
+            <div class="clearfix">
+                <div class="col-lg-8 float-lg-right">
+                     <SlideBar :images="imageLink"/>
+                </div>
+                <div class="col-lg-4 float-lg-left border-right border-dark box-margin-top ">
+                    <div class="new-hot-offer">
+                         <div></div>
+                    </div>
                     <TabWinner />
                     <OnlinePlayer />
                     <PaymentMethod />
                 </div>
-                <div class="col-lg-8">
-                    <SlideBar />
+                <div class="col-lg-8 float-lg-right col-margin-top">
                     <CardGameList />
                 </div>
-                <div class="col-lg-12"> 
+            </div>
+            <div class="clearfix">
+                 <div class="col-lg-12"> 
                     <MoreGame />
                 </div>
             </div>
@@ -21,13 +28,27 @@
 
 <script>
     export default {
-        components: {
-            TabWinner: () => import("@/components/TabWinner"),
-            OnlinePlayer: () => import("@/components/OnlinePlayer"),
-            PaymentMethod: () => import("@/components/PaymentMethod"),
-            SlideBar: () => import('@/components/SlideBar'),
-            CardGameList: () => import('@/components/CardGameList'),
-            MoreGame: () => import('@/components/MoreGame.vue'),
+        data() {
+            return {
+                components: {
+                    TabWinner: () => import("@/components/TabWinner"),
+                    OnlinePlayer: () => import("@/components/OnlinePlayer"),
+                    PaymentMethod: () => import("@/components/PaymentMethod"),
+                    SlideBar: () => import('@/components/SlideBar'),
+                    CardGameList: () => import('@/components/CardGameList'),
+                    MoreGame: () => import('@/components/MoreGame.vue'),
+                },
+                imageLink: [
+                    {
+                        id: 1, 
+                        src: require('../static/images/slide-bar-image/image-1.jpg')
+                    },
+                    {
+                        id: 2,
+                        src: require('../static/images/slide-bar-image/image-2.jpg')
+                    },
+                ],
+            }
         },
     };
 </script>

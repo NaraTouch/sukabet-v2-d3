@@ -1,8 +1,12 @@
-// slidebar border
-#carousel .carousel-inner {
-    border-radius: 15px;
-}
-
-#carousel .carousel-indicators li {
-    box-sizing: border-box;
+//slidebar border
+#carousel {
+    .carousel-inner {
+        border-radius: 15px;
+    }
+    .carousel-indicators li {
+        box-sizing: border-box;
+    }
+    .img-fluid {
+        min-height: 300px;
+    }
 }

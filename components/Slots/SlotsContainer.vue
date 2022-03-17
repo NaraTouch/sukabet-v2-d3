@@ -4,7 +4,7 @@
             <div class="container-fluid container-fluid-override">
                 <div class="row">
                     <div class="col-lg-4 border-right border-dark box-margin-top">
-                        <TabWinner />
+                        <TabWinner :isactive="active" />
                         <OnlinePlayer />
                         <PaymentMethod />
                     </div>
@@ -37,6 +37,7 @@ export default {
              link: "http://localhost:3000/",
             contect: "Selamat datang di situs Sukabet situs dermainan online terlenakap dan terpercava. Pada halaman in anda dapat memilih kategori permainan vang anda inqin mainkan saat In. Bag andd yang Delum au, Dartar Can dapatkan DOnus pemain Daru di SituS Kami. Rasakan keservan yang relan dirasakan oleh pemain lainnya., Jangan ketingqalan permainan terbaru yanq seru di situs kami, Kami hanya memiliki permainan-permainan terbaik agar anda tidak binqund",
             linkTitle: "Baca selanjutnya",
+            active: true,
         }
     },
 }
