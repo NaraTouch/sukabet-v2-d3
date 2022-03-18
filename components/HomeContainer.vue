@@ -1,6 +1,6 @@
 <template>
     <section class="home-container-area">
-        <div class="container-fluid">
+        <div class="container-fluid container-fluid-override">
             <div class="clearfix">
                 <div class="col-lg-8 float-lg-right">
                      <SlideBar :images="imageLink"/>

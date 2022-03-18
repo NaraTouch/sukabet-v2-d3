@@ -1,18 +1,18 @@
 <template>
    <div>
         <section class="home-container-area">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-4 border-right border-dark box-margin-top">
+            <div class="container-fluid container-fluid-override">
+                <div class="clearfix">
+                     <div class="col-lg-8 float-lg-right">
+                        <BaccaratGame :game-link="baccaratGames"/>
+                    </div>
+                    <div class="col-lg-4 float-lg-left border-right border-dark box-margin-top">
                         <TabWinner />
                         <OnlinePlayer />
                         <PaymentMethod />
                     </div>
-                    <div class="col-lg-8 ">
-                        <div class="container-fluid-row">
-                            <BaccaratGame :game-link="baccaratGames"/>
-                        </div>
-                    </div>
+                </div>
+                 <div class="clearfix">
                      <div class="col-lg-12"> 
                         <FooterText :link="link" :test="linkTitle" :contect="contect" />
                         <Footer />
