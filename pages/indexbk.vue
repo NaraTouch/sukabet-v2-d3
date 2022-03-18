@@ -3,6 +3,7 @@
 
         <Header />
         <RunningText />
+        <ActionComponent />
         <div class="container">
             <OffCanvasMobileMenu />
 
@@ -40,6 +41,7 @@
             FunFactOne: () => import('@/components/FunFactOne'),
             Sponsor: () => import('@/components/Sponsor'),
             Footer: () => import('@/components/Footer'),
+            ActionComponent: () => import('@/components/Home/ActionComponent'),
         },
 
         head() {

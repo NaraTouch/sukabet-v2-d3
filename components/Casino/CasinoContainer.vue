@@ -41,22 +41,22 @@ export default {
             baccaratGames: [
                 { 
                     id: 1,
-                    image: 'https://picsum.photos/600/300/?image=25',
+                    image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
                 },
                 {
                     id: 2,
-                    image: 'https://picsum.photos/600/300/?image=25',
+                    image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
                 },
                 {
                     id: 3,
-                    image: 'https://picsum.photos/600/300/?image=25',
+                    image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
                 },
                 {
                     id: 4,
-                    image: 'https://picsum.photos/600/300/?image=25',
+                    image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
                 }
             ]

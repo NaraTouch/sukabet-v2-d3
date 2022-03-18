@@ -29,6 +29,7 @@
             Breadcrumb: () => import('@/components/Breadcrumb'),
             ContactWrapper: () => import('@/components/ContactWrapper'),
             Footer: () => import('@/components/Footer'),
+            ActionComponent: () => import('@/components/Home/ActionComponent'),
         },
 
         data() {

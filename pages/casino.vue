@@ -3,6 +3,7 @@
 
         <Header />
         <RunningText />
+        <ActionComponent />
         <div class="container bg-gray-lighter">
             <OffCanvasMobileMenu />
             <CasinoContainer />
@@ -36,6 +37,7 @@
             Breadcrumb: () => import('@/components/Breadcrumb'),
             PricingWrapper: () => import('@/components/PricingWrapper'),
             CasinoContainer: () => import('@/components/Casino/CasinoContainer'),
+            ActionComponent: () => import('@/components/Home/ActionComponent'),
             // Footer: () => import('@/components/Footer'),
         },
 

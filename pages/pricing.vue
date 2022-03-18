@@ -23,6 +23,7 @@
 
         <Header />
         <RunningText />
+        <ActionComponent />
         <div class="container bg-gray-lighter">
             <OffCanvasMobileMenu />
             <BaccaratContainer />
@@ -57,6 +58,7 @@
             Breadcrumb: () => import('@/components/Breadcrumb'),
             PricingWrapper: () => import('@/components/PricingWrapper'),
             BaccaratContainer: () => import('@/components/Baccarat/BaccaratContainer'),
+            ActionComponent: () => import('@/components/Home/ActionComponent'),
             // Footer: () => import('@/components/Footer'),
         },
 

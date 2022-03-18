@@ -1,6 +1,7 @@
 <template>
-    <div>
-        <div class="display-card" v-for="(baccaratGame, index) in baccaratGames" :key="index">
+    <div class="row">
+        <!-- <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 display-card" v-for="(baccaratGame, index) in baccaratGames" :key="index"> -->
+        <div :class="columnCard" v-for="(baccaratGame, index) in baccaratGames" :key="index">
             <b-card
                 :img-src="baccaratGame.image"
                 img-alt=""
@@ -9,8 +10,8 @@
                 style="max-width: 20rem;"
                 class="mb-2"
             >
-                <span v-if="isActive" class="btn-theme gd-red-black no-border border-raduis-18" href="#" >Go somewhere</span>
-                <span v-else href="#" >Go somewhere</span>
+                <button v-if="isActive" type="buttom" class="btn-size btn-theme gd-red-black no-border border-raduis-18" href="#" >Main</button>
+                <button v-else href="#" type="buttom">Main</button>
             </b-card>
         </div>
     </div>
@@ -21,6 +22,7 @@ export default {
     props: {
         baccaratGames: Array,
         isActive: Boolean,
+        columnCard: String,
     },
     data() {
         return {

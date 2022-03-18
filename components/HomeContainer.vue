@@ -6,7 +6,7 @@
                      <SlideBar :images="imageLink"/>
                 </div>
                 <div class="col-lg-4 float-lg-left border-right border-dark box-margin-top ">
-                    <div class="new-hot-offer">
+                    <div v-if="isActive" class="new-hot-offer">
                          <div></div>
                     </div>
                     <TabWinner />
@@ -48,6 +48,7 @@
                         src: require('../static/images/slide-bar-image/image-2.jpg')
                     },
                 ],
+                isActive: true,
             }
         },
     };

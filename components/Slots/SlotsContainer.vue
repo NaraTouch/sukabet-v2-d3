@@ -1,17 +1,17 @@
 <template>
     <div>
         <section class="home-container-area">
-            <div class="container-fluid container-fluid-override">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-4 border-right border-dark box-margin-top">
                         <TabWinner :isactive="active" />
                         <OnlinePlayer />
                         <PaymentMethod />
                     </div>
-                    <div class="col-lg-8 row-override">
-                        <div class="container-fluid-row">
+                    <div class="col-lg-8 box-margin-top">
+                        <!-- <div class="container-fluid-row"> -->
                             <SlotsGameComponent />
-                        </div>
+                        <!-- </div> -->
                     </div>
                     <div class="col-lg-12"> 
                         <FooterText :link="link" :test="linkTitle" :contect="contect" />
