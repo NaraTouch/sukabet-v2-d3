@@ -3,13 +3,22 @@
         <nav class="offcanvas-navigation" id="offcanvas-navigation">
             <ul>
                 <li>
-                    <n-link to="/">Home</n-link>
+                    <n-link to="/"><img src="/images/brand-logo/1.png" alt="" srcset="">Home</n-link>
                 </li>
                 <li>
-                    <n-link to="/pricing">Pricing</n-link>
+                    <n-link to="/pricing"><img src="/images/brand-logo/2.png" alt="" srcset="">Baccarat</n-link>
                 </li>
                 <li>
-                    <n-link to="/contact">Contact</n-link>
+                    <n-link to="/sport"><img src="/images/brand-logo/3.png" alt="" srcset="">Sport</n-link>
+                </li>
+                <li>
+                    <n-link to="/casino"><img src="/images/brand-logo/4.png" alt="" srcset="">Casino</n-link>
+                </li>
+                <li>
+                    <n-link to="/slots"><img src="/images/brand-logo/5.png" alt="" srcset="">Slots</n-link>
+                </li>
+                <li>
+                    <n-link to="/sport"><img src="/images/brand-logo/6.png" alt="" srcset="">Sport</n-link>
                 </li>
             </ul>
         </nav>

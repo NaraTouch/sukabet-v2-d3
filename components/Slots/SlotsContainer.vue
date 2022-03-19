@@ -6,7 +6,7 @@
                      <div class="col-lg-8  float-lg-right ">
                             <SlotsGameComponent />
                     </div>
-                    <div class="col-lg-4 float-lg-lef border-right border-dark box-margin-top">
+                    <div class="col-lg-4 float-lg-lef border-right box-margin-top">
                         <TabWinner :isactive="active" />
                         <OnlinePlayer />
                         <PaymentMethod />

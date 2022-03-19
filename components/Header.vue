@@ -15,7 +15,7 @@
                             <LoginDesktop />
                         </div>
                         <div class="header-action-area">
-                            <div class="mobile-menu-toggle d-lg-none">
+                            <div class="mobile-menu-toggle">
                                 <button class="toggle" @click="mobiletoggleClass('addClass', 'show-mobile-menu')">
                                     <i class="icon-top"></i>
                                     <i class="icon-middle"></i>

@@ -10,7 +10,6 @@
         color: $white-fe;
         font-size: $font-size-12;
     }
-
     .form-control {
         -webkit-transition-property: none !important;
         -moz-transition-property: none !important;
@@ -18,7 +17,7 @@
         transition-property: none !important;
         transition-property: none !important;
         transition: none !important;
-        text-indent:20px;
+        text-indent: 20px;
         height: calc(1em + 0.75rem + 2px) !important;
         padding: 0px !important;
         color: $white-fe;
@@ -27,9 +26,11 @@
         border-bottom: 1px solid $white-fe;
         border-right: 1px solid $white-fe;
     }
-    input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    input::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: $white-fe;
-        opacity: 1; /* Firefox */
+        opacity: 1;
+        /* Firefox */
         padding-left: 10px;
         font-size: $font-size-12;
     }
@@ -77,40 +78,49 @@
             @media #{$md-device} {
                 justify-content: flex-end;
             }
-
+            .header-action-area {
+                .mobile-menu-toggle {
+                    @media #{$lg-device} {
+                        display: flex;
+                    }
+                    @media #{$xl-down-device} {
+                        display: none;
+                    }
+                }
+            }
             .header-navigation-area {
                 @media #{$lg-device} {
                     display: none;
                 }
                 .main-menu {
-                    & > li {
+                    &>li {
                         margin-right: 0;
                         &:first-child {
-                            & > a {
+                            &>a {
                                 &.active {
                                     &:before {
                                         left: 30%;
                                     }
                                 }
                             }
-                            & > a {
+                            &>a {
                                 padding-left: 0;
                             }
                         }
                         &:last-child {
                             margin-right: 0;
-                            & > a {
+                            &>a {
                                 &.active {
                                     &:before {
                                         left: 65%;
                                     }
                                 }
                             }
-                            & > a {
+                            &>a {
                                 padding-right: 0;
                             }
                         }
-                        & > a {
+                        &>a {
                             &.active {
                                 color: $theme-color;
                                 position: relative;
@@ -133,13 +143,13 @@
                             }
                         }
                         &.has-submenu {
-                            & > a {
+                            &>a {
                                 &:before {
                                     display: block;
                                 }
                             }
                         }
-                        & > a {
+                        &>a {
                             padding: 7px 20px;
                             @media #{$xl-device} {
                                 padding: 7px 31px;
@@ -157,7 +167,7 @@
                                 &:before {
                                     height: 40px;
                                 }
-                                & > li {
+                                &>li {
                                     a {
                                         color: $black-0e;
                                         &:hover {
@@ -170,7 +180,6 @@
                     }
                 }
             }
-
             .header-action-area {
                 display: flex;
                 align-items: center;
@@ -254,6 +263,7 @@
         padding-left: 20px;
     }
 }
+
 // sticky css
 .header-area {
     &.is-sticky {
@@ -271,11 +281,8 @@
         opacity: 0;
         transform: translate3d(0, -100%, 0);
     }
-
     to {
         opacity: 1;
         transform: translate3d(0, 0, 0);
     }
 }
-
-

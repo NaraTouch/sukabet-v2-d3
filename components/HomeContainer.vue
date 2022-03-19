@@ -5,7 +5,7 @@
                 <div class="col-lg-8 float-lg-right">
                      <SlideBar :images="imageLink"/>
                 </div>
-                <div class="col-lg-4 float-lg-left border-right border-dark box-margin-top ">
+                <div class="col-lg-4 float-lg-left border-right box-margin-top ">
                     <div v-if="isActive" class="new-hot-offer">
                          <div></div>
                     </div>
