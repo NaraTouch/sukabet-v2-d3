@@ -29,7 +29,28 @@
             <button class="btn-theme btn-red no-border" type="submit">Masuk</button>
         </div>
         <div class="input-group mr-sm-2">
-            <button class="btn-theme btn-white no-border" type="submit">Daftar</button>
+           <button class="btn-theme btn-white no-border" type="submit" >Daftar</button> 
+            <!-- <button class="btn btn-secondary" @click.prevent="modalShow = !modalShow">Open Bootstrap Modal</button>
+             <b-modal v-model="modalShow">Hello From Modal!</b-modal> -->
+             
         </div>
     </form>
 </template>
+<script>
+export default {
+    components: {
+     DialogComponent: () => import('@/components/Dialog/DialogComponent'),
+    },
+    data() {
+      return {
+       showModal: false
+      }
+    },
+    methods: {
+        closeModal(){
+			this.showModal = false;
+		}   
+    }
+    
+}
+</script>

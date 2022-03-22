@@ -38,3 +38,13 @@
         max-width: 200px;
     }
 }
+
+#slots-game {
+    .display-card {
+        .card {
+            .card-body {
+                padding: 10px 0px 0px 0px !important;
+            }
+        }
+    }
+}

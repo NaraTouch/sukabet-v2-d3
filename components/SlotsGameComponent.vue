@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="slots-game">
         <div class="mb-2 mb-2-bgc">
             <div class="tabs box-shadow-1 bg-white gd-white-old">
                 <div class="new-hot-offer">
@@ -52,121 +52,145 @@ export default {
                     id: 1,
                      image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                    title: '888',
                 },
                 {
                     id: 2,
                      image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 3,
                      image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 4,
                      image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 5,
                      image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 6,
                     image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                  { 
                     id: 1,
                      image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 2,
                     image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 3,
                      image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 4,
                      image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 5,
                     image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 6,
                      image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                  { 
                     id: 1,
                      image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 2,
                      image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 3,
                      image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 4,
                     image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 5,
                     image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 6,
                     image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                  { 
                     id: 1,
                     image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 2,
                     image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 3,
                     image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 4,
                     image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 5,
                     image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 },
                 {
                     id: 6,
                     image: require('@/static/images/photos/poker-thumb.png'),
                     link: 'https://www.w3schools.com/',
+                     title: '888',
                 }
             ],
         }

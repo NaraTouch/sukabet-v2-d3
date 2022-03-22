@@ -17,9 +17,6 @@
                 <li>
                     <n-link to="/slots"><img src="/images/brand-logo/5.png" alt="" srcset="">Slots</n-link>
                 </li>
-                <li>
-                    <n-link to="/sport"><img src="/images/brand-logo/6.png" alt="" srcset="">Sport</n-link>
-                </li>
             </ul>
         </nav>
     </div>

@@ -11,7 +11,7 @@
                 class="mb-2"
             >
                 <button v-if="isActive" type="buttom" class="btn-size btn-theme gd-red-black no-border border-raduis-18" href="#" >Main</button>
-                <button v-else href="#" type="buttom">Main</button>
+                <button v-else href="#" type="buttom">{{baccaratGame.title}}</button>
             </b-card>
         </div>
     </div>
@@ -23,6 +23,7 @@ export default {
         baccaratGames: Array,
         isActive: Boolean,
         columnCard: String,
+        title: String,
     },
     data() {
         return {
